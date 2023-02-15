@@ -1,0 +1,2 @@
+class CollectProductData:
+    pass
