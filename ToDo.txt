@@ -1,0 +1,12 @@
+# Create a database filled with data about memes
+1. Use the following url to get all memes - 'https://api.imgflip.com/get_memes'(Done)
+2. Scrape the data into a dataframe and populate a postgresql database with the dataframe(Done)
+
+# Create the User class
+
+
+# Create the RegistrationForm class
+
+
+# Create the LoginForm class
+
