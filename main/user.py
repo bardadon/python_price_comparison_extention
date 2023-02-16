@@ -38,8 +38,13 @@ class User:
         self._username = new_username
 
     @property
-    def getPassword(self):
+    def password(self):
         return self._password
+
+    @password.setter
+    def setPassword(self, new_password):
+        self._password = new_password
+        
 
     def searchMeme(self, memeName: str):
         crawler = CollectMemeData()
